@@ -15,7 +15,7 @@ def hopper
           :languages => ["C"]
         }
      }
-
+programmer_hash[:grace_hopper]
 
 end
 
@@ -57,6 +57,7 @@ def dennis_ritchies_language
           :languages => ["C"]
         }
      }
+     programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
@@ -128,7 +129,7 @@ def adding_to_dennis
           :languages => ["C"]
         }
      }
-     programmer_hash[:dennis_ritchie][:languages] << "Assembly"
-     programmer_hash
-#unsure of error
+    programmer_hash[:dennis_ritchie][:languages] << "Assembly"
+    programmer_hash
+
 end
