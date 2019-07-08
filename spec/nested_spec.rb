@@ -1,10 +1,7 @@
 require_relative "spec_helper"
 require_relative "../nested.rb"
 
-describe "nested hash" do
-  describe "hopper" do
-    it "operates on the programmer_hash and returns the value of the :grace_hopper key" do
-      expect(hopper).to eq({:known_for => "COBOL", :languages => ["COBOL", "FORTRAN"]})
+{:known_for=>"COBOL", :languages=>["COBOL", "FORTRAN"]}
 
     end
   end
@@ -21,7 +18,7 @@ describe "nested hash" do
     end
   end
 
-  describe "adding_matz" do 
+  describe "adding_matz" do
     it "operates on the programmer_hash and adds a key/value pair to the top level of the hash, returning the newly-added-to hash" do
       expect(adding_matz.keys).to include(:yukihiro_matsumoto)
     end
