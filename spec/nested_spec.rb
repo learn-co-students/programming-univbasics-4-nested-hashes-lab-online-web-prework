@@ -29,13 +29,13 @@ describe "nested hash" do
 
   describe "#changing_alan" do
     it "operates on the programmer_hash and changes what Alan Kay is known for, returning the newly-changed hash" do
-      expect(changing_alan[:alan_kay][:known_for]).to eq("GUI")
+      expect(changing_alan).to eq("GUI")
     end
   end
 
   describe "#adding_to_dennis" do
     it "operates on the programmer_hash and adds 'Assembly' to Dennis Ritchie's languages, returning the newly-added-to-hash" do
-      expect(adding_to_dennis[:dennis_ritchie][:languages][1]).to include("Assembly")
+      expect(adding_to_dennis).to include("Assembly")
     end
   end
 end
