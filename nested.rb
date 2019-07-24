@@ -1,5 +1,4 @@
-
-def hopper
+(hopper) .to eq({:known_for => "COBOL", :languages => [ "COBOL", "FORTRAN"]})
 	programmer_hash = 
  		{
         :grace_hopper => {
