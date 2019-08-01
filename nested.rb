@@ -20,6 +20,7 @@ def hopper
 end
 
 def alan_kay_is_known_for
+	programmer_hash.merge(:known_for=> "object orientation":alan_kay)
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
 	programmer_hash = 
@@ -58,6 +59,13 @@ def dennis_ritchies_language
 end
 
 def adding_matz
+  programmer_hash=
+  {
+    :yukihiro_matsumoto=>{
+      :known_for=> "Ruby",
+        :languages=> ["LISP", "C"]
+    }
+  }
 # add the following information to the top level of programmer_hash
 # :yukihiro_matsumoto => {
 #   :known_for => "Ruby",
@@ -91,7 +99,7 @@ def changing_alan
           :languages => ["COBOL", "FORTRAN"]
         },
         :alan_kay => {
-          :known_for => "Object Orientation",
+          :alans_new_info => "GUI",
           :languages => ["Smalltalk", "LISP"]
         },
         :dennis_ritchie => {
