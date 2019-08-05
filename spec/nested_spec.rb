@@ -1,5 +1,8 @@
-require_relative "spec_helper"
-require_relative "../nested.rb"
+# good example
+
+my_hash = {["first: I'm first, second I'm second!]}
+
+
 
 describe "nested hash" do
   describe "hopper" do
