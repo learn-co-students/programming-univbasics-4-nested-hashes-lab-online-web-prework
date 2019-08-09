@@ -19,8 +19,8 @@ def hopper
 
 end
 
-def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+def alan_kay_is_known_for(key, alan_key)
+	
 	
 	programmer_hash = 
  		{
@@ -82,7 +82,7 @@ def adding_matz
 
     
 end
-
+to
 def changing_alan
 	programmer_hash = 
  		{
