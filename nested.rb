@@ -1,5 +1,5 @@
 
-def hopper
+def hooper
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -123,3 +123,5 @@ def adding_to_dennis
      }
 
 end
+
+:grace_hopper key
