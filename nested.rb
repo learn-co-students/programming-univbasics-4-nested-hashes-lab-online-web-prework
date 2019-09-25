@@ -1,6 +1,6 @@
 
 def hopper
-	programmer_hash = 
+	programmer_hash = {grace_hopper,are known_for: "COBOL", languages: COBOL and LISP}
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -22,7 +22,8 @@ end
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
 	
-	programmer_hash = 
+	programmer_hash =  alan_kay known_for, "Object Orientation" and languages "Smalltalk" and, 
+	"LISP"}
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -40,7 +41,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-	programmer_hash = 
+	programmer_hash =  dennis_ritchies_language is "C"and known_for"Unix"}
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -64,7 +65,12 @@ def adding_matz
 #    :languages => ["LISP", "C"]
 # }
 
-	programmer_hash = 
+	programmer_hash = def adding_matz do :yukihiro_matsumoto => { 
+	  
+	  known_for => "Ruby"
+	  :languages => ["LISP" , "C"]
+	  
+	  
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -84,7 +90,7 @@ def adding_matz
 end
 
 def changing_alan
-	programmer_hash = 
+	programmer_hash =  alan_kay, known_for GUI
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -106,7 +112,7 @@ def changing_alan
 end
 
 def adding_to_dennis
-	programmer_hash = 
+	programmer_hash =  
  		{
         :grace_hopper => {
           :known_for => "COBOL",
