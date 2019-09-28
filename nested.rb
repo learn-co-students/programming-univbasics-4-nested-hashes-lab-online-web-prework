@@ -1,5 +1,5 @@
 
-def hopper
+helpdef hopper
 	programmer_hash = 
  		{
         :grace_hopper => {
