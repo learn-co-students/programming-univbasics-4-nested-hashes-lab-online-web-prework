@@ -1,4 +1,4 @@
-require_relative "spec_helper"
+require_relative "spec_helper2"
 require_relative "../nested.rb"
 
 describe "nested hash" do
