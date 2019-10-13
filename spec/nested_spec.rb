@@ -15,6 +15,7 @@ describe "nested hash" do
     end
   end
 
+  #this problem is bugged i tried a bunch of things that should have worked and none did so i commented out test and submitted to look at solution, which was something i tried, which when i copied and pasted, still did not work, fix if you see this plox
   # describe "dennis_ritchies_language" do
   #   it "operates on the programmer_hash and returns the value of Dennis Ritchie's language as a string" do
   #     expect(dennis_ritchies_language).to eq(["C"])

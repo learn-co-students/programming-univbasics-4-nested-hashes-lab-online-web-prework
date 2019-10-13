@@ -58,7 +58,7 @@ def dennis_ritchies_language
      }
 # this problem is poorly designed imo; the below gives the necessary output exactly but does not pass
 # return programmer_hash[:dennis_ritchie][:languages].to_s[1] + programmer_hash[:dennis_ritchie][:languages].to_s[2] + programmer_hash[:dennis_ritchie][:languages].to_s[3]
-programmer_hash[:dennis_ritchie][:languages].to_s
+programmer_hash[:dennis_ritchie][:languages][0]
 end
 
 def adding_matz
