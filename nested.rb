@@ -70,10 +70,10 @@ def adding_matz
               programmer_hash={
                 :known_for => [Ruby],
                 :languages => [LISP],
-                :languages => [C]
+                :languages => [C],
               
-              
- 		{ 
+         },
+     }
  		  	  :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
