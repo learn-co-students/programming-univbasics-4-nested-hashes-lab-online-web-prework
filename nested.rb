@@ -68,9 +68,9 @@ def adding_matz
 # }
      {       
               programmer_hash={
-                :known_for => [Ruby]
-                :languages => [LISP]
-                :languages [C]
+                :known_for => [Ruby],
+                :languages => [LISP],
+                :languages => [C]
               
               
  		{ 
