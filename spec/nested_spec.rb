@@ -1,3 +1,19 @@
+def hopper
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
+          :languages => ["COBOL", "FORTRAN"]
+        
+     }
+
+
+end
+
+
+
+
+
 require_relative "spec_helper"
 require_relative "../nested.rb"
 
