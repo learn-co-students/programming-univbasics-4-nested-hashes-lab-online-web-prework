@@ -68,7 +68,7 @@ def adding_matz
         
      }
 
-    programmer_hash[:yukihiro_matsumoto, [:known_for = Ruby], [:languages = COBOL, FORTRAN]]
+    programmer_hash[:yukihiro_matsumoto, [:known_for] = "Ruby", [:languages] = "COBOL", "FORTRAN"]
     Programmer_hash[:yukihiro_matsumoto]
 end
 
