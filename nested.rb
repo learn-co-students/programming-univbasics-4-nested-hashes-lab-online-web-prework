@@ -20,7 +20,11 @@ def hopper
 end
 
 def alan_kay_is_known_for
-	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
+	
+	 programmer_hash[:alan_kay][:known_for] = alans_new_info
+     return programmer_hash
+     
+end
 	
 	programmer_hash = 
  		{
@@ -35,6 +39,7 @@ def alan_kay_is_known_for
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+          
         }
      }
 end
@@ -77,8 +82,12 @@ def adding_matz
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+          
+          another_hash = {:yukihiro_matsumoto => {:known_for => "Ruby",:languages => ["LISP, C"]}}
+    	  another_hash.merge(programmer_hash)
         }
      }
+
 
     
 end
