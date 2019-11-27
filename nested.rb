@@ -5,14 +5,20 @@ def hopper
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
+          :Orientation =>"Gender",
+          :Optional =>["female","male"]
         },
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
+          :abilities => "Handicapped",
+          :condition => ["deaf", "blind"]
         },
         :dennis_ritchie => {
           :known_for => "Unix",
           :languages => ["C"]
+          :Search => "Browser",
+          :Popular=> "Google Chrome","Firefox",
         }
      }
 
