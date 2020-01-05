@@ -1,5 +1,9 @@
 
+          :languages => ["COBOL", "FORTRAN"]
+        },
+        :alan_kay => {
 def hopper
+	
 	programmer_hash = 
  		{
         :grace_hopper => {
@@ -9,6 +13,11 @@ def hopper
         :alan_kay => {
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
+	
+	programmer_hash = 
+ 		{
+        :grace_hopper => {
+          :known_for => "COBOL",
         },
         :dennis_ritchie => {
           :known_for => "Unix",
@@ -21,14 +30,7 @@ end
 
 def alan_kay_is_known_for
 	# What combination of keys would you use to return the value of the :known_for key of :alan_kay?
-	
-	programmer_hash = 
- 		{
-        :grace_hopper => {
-          :known_for => "COBOL",
-          :languages => ["COBOL", "FORTRAN"]
-        },
-        :alan_kay => {
+	alan_kay_is_known_for = p:alan_kay
           :known_for => "Object Orientation",
           :languages => ["Smalltalk", "LISP"]
         },
@@ -40,7 +42,7 @@ def alan_kay_is_known_for
 end
 
 def dennis_ritchies_language
-	programmer_hash = 
+	programmer_hash = p:dennis.[languages]
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -66,6 +68,10 @@ def adding_matz
 
 	programmer_hash = 
  		{
+ 	:yukihiro_matsumoto => {
+   :known_for => "Ruby",
+   :languages => ["LISP", "C"]
+ 		  },
         :grace_hopper => {
           :known_for => "COBOL",
           :languages => ["COBOL", "FORTRAN"]
@@ -98,7 +104,10 @@ def changing_alan
           :known_for => "Unix",
           :languages => ["C"]
         }
-     }
+     } 
+     
+     :alan_kay[:known_for]= "GUI"
+     p.alan_kay[:known_for]
      #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
      alans_new_info = "GUI"
      
@@ -118,7 +127,8 @@ def adding_to_dennis
         },
         :dennis_ritchie => {
           :known_for => "Unix",
-          :languages => ["C"]
+          :languages => ["C","COBOL"]
+       :name => "dennis"
         }
      }
 
